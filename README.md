@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *NBA Top Players List*
+# WEB103 Project 2 - *NBA Top Players List*
 
 Submitted by: **Nelson Huang**
 
-About this web app: **An application that details the current top NBA players and some relevant facts about them. The application was created with HTML/CSS/JS and Express in the backend.**
+About this web app: **An application that details the current top NBA players and some relevant facts about them. The application was created with HTML/CSS/JS and Express in the backend. It also uses a PostgreSQL database from the cloud that stores the players' data.**
 
-Time spent: **3** hours
+Time spent: **2** hours
 
 ## Required Features
 
@@ -12,16 +12,13 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is appropriately styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
-- [x] The web app displays items in a unique format, such as cards rather than lists
+- [ ] The user can search for items with a specific attribute
 
 The following **additional** features are implemented:
 
@@ -29,14 +26,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-![](https://github.com/nelsonh15/listicle_part1/blob/main/listicle_part1.gif)
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LiceCAP
+GIF created with ...  GIF tool here
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -44,8 +39,7 @@ GIF created with LiceCAP
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-None.
+Describe any challenges encountered while building the app or any additional context you'd like to add. None.
 
 ## License
 
